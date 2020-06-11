@@ -7,7 +7,7 @@ import AppError from '../errors/AppError';
 
 interface Request {
   email: string;
-  password: string;
+  password: string; 
 }
 
 interface Response {
