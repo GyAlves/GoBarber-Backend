@@ -13,8 +13,9 @@ export default class UpdateProviderFieldToProviderId1587747519786
       'appointments',
       new TableColumn({
         name: 'provider_id',
-        type: 'varchar',
+        type: 'uuid',
         generationStrategy: 'uuid',
+        default: 'uuid_generate_v4()',
         isNullable: true,
       }),
     );
