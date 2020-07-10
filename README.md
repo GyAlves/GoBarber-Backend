@@ -41,10 +41,10 @@ Tecnologias e ferramentas utilizadas no projeto :
 - Multer
 - TypeORM
 - Express
+- Insomnia
 - JWT ( Jason Web Token )
 
  ## Requisitos necessários para rodar o projeto 
- - Necessário ter o backend para consumir os dados. Baixe aqui : <a href="https://github.com/GyAlves/MiniRepositorio-Backend">Backend</a>
     
   ```   
   // 1 - Git Clone
