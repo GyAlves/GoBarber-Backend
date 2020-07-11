@@ -19,11 +19,16 @@
 
 
 ## 📖 Sobre  
-API RestFul de uma aplicação de cabelereiros em desenvolvimento. Features criadas  :
+
+API RestFul de uma aplicação de cabelereiros em desenvolvimento. 
+
+## Features criadas  :
 
 - Criar Usuários
 - Alterar usuários
 - Criar agendamentos
+- Buscar datas para agendamentos
+- Alterar perfil 
 - Autenticar usuários pelo JWT
 
 
@@ -36,9 +41,23 @@ Tecnologias e ferramentas utilizadas no projeto :
 - Multer
 - TypeORM
 - Express
+- Insomnia
 - JWT ( Jason Web Token )
-- Insomnia 
-- Visual Studio Code
+
+ ## Requisitos necessários para rodar o projeto 
+    
+  ```   
+  // 1 - Git Clone
+  
+  // 2 - Instale as depêndencias
+  yarn install
+  
+  // 3 - Na pasta do backend rode o servidor 
+  yarn dev:server
+  
+  // Dentro do Insomnia crie as requisições de acordo com as rotas da pasta routes
+
+```
 
 ##  Licence :memo:
 
